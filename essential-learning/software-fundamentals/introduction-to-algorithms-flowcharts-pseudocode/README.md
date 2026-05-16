@@ -1,4 +1,4 @@
-# 📘 Introduction to Algorithms, Flowcharts & Pseudocode
+# 📘 02-Introduction to Algorithms, Flowcharts & Pseudocode
 
 ---
 
@@ -167,53 +167,9 @@ STOP
 ---
 
 # 📊 Flowchart
-
-```text
-        ┌─────────┐
-        │  Start  │
-        └────┬────┘
-             │
-             ▼
- ┌─────────────────────┐
- │ Read Array Elements │
- └─────────┬───────────┘
-           │
-           ▼
- ┌─────────────────────┐
- │ Take First Element  │
- │ as Largest Number   │
- └─────────┬───────────┘
-           │
-           ▼
- ┌─────────────────────┐
- │ Compare Remaining   │
- │ Elements One by One │
- └─────────┬───────────┘
-           │
-           ▼
-        /────────────────────────\
-       / Is Current Element      \
-      / Greater than Largest ?    \
-      \──────────────────────────/
-           │ Yes        │ No
-           ▼            │
- ┌─────────────────────┐ │
- │ Update Largest      │ │
- └─────────┬───────────┘ │
-           │             │
-           └──────┬──────┘
-                  │
-                  ▼
- ┌─────────────────────┐
- │ Print Largest Value │
- └─────────┬───────────┘
-           │
-           ▼
-        ┌─────────┐
-        │  Stop   │
-        └─────────┘
-```
-
+<p align="center">
+  <img src="../../../images/Tea-flowchart.png" width="700">
+</p>
 ---
 
 # 📌 Definition of Flowchart
