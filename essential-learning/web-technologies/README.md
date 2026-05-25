@@ -2,61 +2,11 @@
 
 ## 1. HTML
 
-### Introduction to HTML
-- What is HTML5
-- Structure of a web page
-- HTML document structure
-- Basic HTML syntax
+## HTML Concepts Repository
 
-### HTML Fundamentals
-- Headings and paragraphs
-- Formatting tags
-- Comments in HTML
-- Attributes in HTML
+For detailed HTML concepts, examples, and interview preparation notes, visit:
 
-### Writing HTML Code
-- Creating web pages
-- HTML editors and browsers
-- Saving and running HTML files
-
-### Tables in HTML
-- Table creation
-- Rows and columns
-- Table headers
-- Table attributes
-
-### Lists in HTML
-- Ordered lists
-- Unordered lists
-- Nested lists
-
-### Links and Anchor Tags
-- Hyperlinks
-- Internal and external links
-- Anchor tag attributes
-
-### Images in HTML
-- Image tag
-- alt attribute
-- Image dimensions
-
-### HTML Forms
-- Form creation
-- Input elements
-- Labels and buttons
-- Login form design
-
-### Semantic HTML
-- Semantic tags
-- Article tag
-- Section and header tags
-- Accessibility basics
-
-### Practice Programs
-- Table of Contents
-- Chess Board Designing
-- Employee Basic Information
-- Forever Event Management
+[HTML Concepts Hub](https://github.com/VigneshwarNaik/html-concepts-hub)
 
 ---
 
