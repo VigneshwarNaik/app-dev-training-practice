@@ -1,143 +1,230 @@
-<div align="center">
+# Software Fundamentals – Index of Concepts
 
-# 📘 Software Fundamentals
+## 1. Logic Development
 
-### 🚀 Application Development Learning Journey
-
-<img src="https://img.shields.io/badge/Course-Software_Fundamentals-blue?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Language-English-green?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Level-Intermediate-orange?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Platform-Tekstac-black?style=for-the-badge" />
-
----
-
-### 💡 Logic Building • Problem Solving • Software Engineering
-
-</div>
+### Introduction to Logic Development
+- Logical thinking
+- Problem-solving techniques
+- Step-by-step solution approach
+- Importance of logic in programming
+- Analytical reasoning
 
 ---
 
-# 📌 About The Course
+## 2. Introduction to Algorithms, Flowcharts & Pseudocode
 
-Software Fundamentals focuses on developing logical thinking and problem-solving skills required for programming and software development.
+### Algorithms
+- What is an algorithm
+- Characteristics of algorithms
+- Steps in problem solving
+- Algorithm design techniques
 
-This course helps in understanding:
-- Algorithmic thinking
-- Logical development
-- Software engineering concepts
+### Flowcharts
+- Flowchart symbols
+- Flowchart representation
+- Decision making in flowcharts
+- Process flow visualization
+
+### Pseudocode
+- What is pseudocode
+- Writing pseudocode
+- Structured logic representation
+- Converting logic into programs
+
+### Practice Problems
+- Hello World
+- Speed Computation
+- Estimation of Total Cost
+
+---
+
+## 3. Selection Statements
+
+### Conditional Statements
+- if statement
+- if-else statement
+- Nested if statements
+- switch-case concepts
+
+### Decision Making
+- Logical operators
+- Relational operators
+- Conditional execution
+
+### Problem Solving using Selection Statements
+- Work allotment
+- Highway department celebration
+- Names of the month
+- Income tax calculation
+- Landmark store
+
+### Pseudocode using Selection Statements
+- Conditional pseudocode design
+- Decision-based problem solving
+
+---
+
+## 4. Looping Statements
+
+### Loop Concepts
+- Iteration
+- Repetition in programming
+- Loop control structures
+
+### Types of Loops
+- for loop
+- while loop
+- do-while loop
+
+### Problem Solving using Loops
+- Factorial of a number
+- Pistol event
+- Frequency of digits
+- Armstrong number
+- Fibonacci series
+- Leave calculation
+- Palindrome problem
+
+### Pseudocode using Loops
+- Iterative problem solving
+- Loop-based logic building
+
+---
+
+## 5. Arrays
+
+### Introduction to Arrays
+- What is an array
+- One-dimensional arrays
+- Multi-dimensional arrays
+
+### Array Operations
+- Traversing arrays
+- Storing and retrieving data
+- Searching in arrays
+
+### Matrix Operations
+- Matrix addition
+- Multi-dimensional data handling
+
+### Problem Solving using Arrays
+- Sweet Stall
+- Doctor Survey
+- Student marks storage
+- Online shopping
+- Sprint competition
+- Fruit purchase calculation
+- Grand discount sale
+- Find the order
+
+### Pseudocode using Arrays
+- Array-based logic design
+- Data organization techniques
+
+---
+
+## 6. Software Engineering Fundamentals
+
+### Introduction to Software Engineering
+- What is software engineering
+- Importance of software engineering
 - Software development lifecycle
-- Testing and configuration management
+
+### Software Engineering Fundamentals
+- Software quality
+- Project planning
+- Software process management
+
+### Software Process Models
+- Waterfall model
+- Incremental model
+- Spiral model
+- Agile model
+
+### Software Development Lifecycle (SDLC)
+- Requirement gathering
+- Design
+- Development
+- Testing
+- Maintenance
 
 ---
 
-# 🎯 Course Objectives
+## 7. Phases of Software Engineering
 
-✅ Write algorithms for problem statements  
-✅ Draw flowcharts and define pseudocode  
-✅ Improve logical and analytical thinking  
-✅ Understand control structures and iterations  
-✅ Learn arrays and problem-solving techniques  
-✅ Explore software engineering lifecycle  
-✅ Understand software testing concepts  
-✅ Learn configuration management and version control  
+### Requirement Analysis
+- Requirement gathering
+- Functional requirements
+- Non-functional requirements
+- Software Requirements Specification (SRS)
 
----
+### Entity Relationship Diagram (ERD)
+- ERD concepts
+- Entities and relationships
+- Database design basics
 
-# 📚 Topics Covered
+### Software Design
+- System design
+- Architectural design
+- Modular design
 
-| Module | Concepts |
-|:---|:---|
-| 1️⃣ Logic Development | Logical thinking & problem analysis |
-| 2️⃣ Algorithms, Flowcharts & Pseudocode | Algorithm design & flowcharts |
-| 3️⃣ Selection Statements | Decision-making statements |
-| 4️⃣ Looping Statements | Iteration & loops |
-| 5️⃣ Arrays | Array operations & concepts |
-| 6️⃣ Software Engineering Fundamentals | Basics of software engineering |
-| 7️⃣ Phases of Software Engineering | SDLC phases |
-| 8️⃣ Software Testing | Testing concepts & approaches |
-| 9️⃣ Software Configuration Management | Version control & configuration |
+### Coding
+- Implementation phase
+- Coding standards
+- Program development
 
----
-
-# 📂 Course Structure
-
-```bash
-software-fundamentals/
-│
-├── notes/
-├── algorithms/
-├── flowcharts/
-├── pseudocode/
-├── selection-statements/
-├── looping-statements/
-├── arrays/
-├── software-engineering/
-├── software-testing/
-├── configuration-management/
-└── README.md
-```
+### Problem Solving and Analysis
+- Requirement validation
+- Design evaluation
+- Logical analysis
 
 ---
 
-# 📊 Course Information
+## 8. Software Testing
 
-| Category | Details |
-|:---|:---|
-| 📘 Course Name | Software Fundamentals |
-| 🌐 Language | English |
-| 📈 Level | Intermediate |
+### Introduction to Software Testing
+- Importance of testing
+- Software quality assurance
+- Testing lifecycle
 
----
+### Types of Testing
+- Static testing
+- Dynamic testing
+- Functional testing
+- Non-functional testing
 
-# 🛠️ Skills Gained
+### Testing Techniques
+- Test case design
+- Error detection
+- Bug tracking
 
-<div align="center">
-
-| 🧠 Logical Thinking | ⚙️ Problem Solving | 📘 Software Engineering |
-|:---:|:---:|:---:|
-
-| 🔁 Iterations | 📊 Algorithms | 🧪 Software Testing |
-|:---:|:---:|:---:|
-
-</div>
-
----
-
-# 📖 Learning Outcomes
-
-After completing this course, I will be able to:
-- Analyze problem scenarios effectively
-- Design algorithms and flowcharts
-- Write pseudocode using programming constructs
-- Understand software engineering lifecycle
-- Learn software testing approaches
-- Understand configuration management concepts
+### Software Maintenance
+- Corrective maintenance
+- Adaptive maintenance
+- Preventive maintenance
+- Perfective maintenance
 
 ---
 
-# 🚀 Progress Tracking
+## 9. Software Configuration Management
 
-| Module | Status |
-|:---|:---:|
-| Logic Development | ⏳ |
-| Algorithms & Flowcharts | ⏳ |
-| Selection Statements | ⏳ |
-| Looping Statements | ⏳ |
-| Arrays | ⏳ |
-| Software Engineering Fundamentals | ⏳ |
-| Software Testing | ⏳ |
-| Configuration Management | ⏳ |  
+### Introduction to Configuration Management
+- Software configuration management (SCM)
+- Version control
+- Change management
 
----
+### SCM Activities
+- Configuration identification
+- Configuration control
+- Status accounting
+- Configuration auditing
 
-# ⚠️ Note
+### Version Control Systems
+- Source code management
+- Git basics
+- Repository management
 
-This repository contains only personal learning notes, practice work, and exercises created for educational purposes.
-
----
-
-<div align="center">
-
-### ⭐ Learn Logic • Build Skills • Practice Daily 🚀
-
-</div>
+### Importance of SCM
+- Team collaboration
+- Change tracking
+- Build and release management
