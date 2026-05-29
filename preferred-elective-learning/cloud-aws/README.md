@@ -1,171 +1,323 @@
-# AWS – Index of Concepts
+# Cloud Computing with AWS (Amazon Web Services)
 
-## 1. Introduction to AWS Cloud
+## Overview
 
-### Cloud Computing Fundamentals
-- What is cloud computing
-- Benefits of cloud computing
-- Types of cloud computing
-- Cloud service models
+This repository contains my learning journey and hands-on practice with **Amazon Web Services (AWS)** as part of the Cloud Computing learning program.
 
-### Introduction to AWS
-- What is AWS
-- AWS global infrastructure
-- AWS regions and availability zones
-- AWS management console
+Cloud platforms available today include:
 
-### AWS Cloud Basics
-- Scalability
-- Elasticity
-- Reliability
-- High availability
+* Amazon Web Services (AWS)
+* Microsoft Azure
+* Google Cloud Platform (GCP)
 
-### AWS Cloud Practitioner Concepts
-- Shared responsibility model
-- AWS core services overview
-- Cloud deployment models
+Among these cloud providers, I selected **AWS** because it is one of the most widely used cloud platforms in the world and provides a large collection of cloud services for computing, storage, networking, security, and application deployment.
+
+This repository contains concepts, notes, practical exercises, and AWS service configurations that I learned during my cloud training.
 
 ---
 
-## 2. Technology – Core Services
+# Why AWS?
 
-### Amazon S3 (Simple Storage Service)
-- Object storage
-- S3 buckets
-- Uploading and managing files
-- Static website hosting using S3
-- Storage classes
+AWS is a cloud computing platform provided by Amazon.
 
-### Amazon EC2 (Elastic Compute Cloud)
-- Virtual servers in AWS
-- Launching EC2 instances
-- Linux EC2 instances
-- Deploying web applications on EC2
+It allows users to:
 
-### Amazon EBS (Elastic Block Store)
-- Persistent storage
-- Creating EBS volumes
-- Attaching EBS volumes to EC2
-- Data storage management
+* Create virtual servers
+* Store files
+* Build applications
+* Manage databases
+* Configure networking
+* Secure cloud resources
 
-### AWS Core Infrastructure
-- Compute services
-- Storage services
-- Networking basics
+### Benefits of AWS
 
-### Hands-On Practice
-- Create S3 bucket
-- Host static website on S3
-- Launch EC2 instance
-- Attach EBS volume
+* Easy to Learn
+* Pay-As-You-Go Pricing
+* Highly Scalable
+* Secure
+* Reliable
+* Global Infrastructure
+* Industry Standard Cloud Platform
 
 ---
 
-## 3. AWS Resources for Technology Support
+# What is Cloud Computing?
 
-### Amazon VPC (Virtual Private Cloud)
-- What is VPC
-- Private cloud networking
-- Subnets
-- Route tables
-- Internet gateways
+Cloud Computing means using computing resources such as servers, storage, databases, and networking over the internet instead of owning physical hardware.
+
+### Traditional Method
+
+```text
+Buy Hardware
+Install Software
+Maintain Servers
+Pay High Cost
+```
+
+### Cloud Method
+
+```text
+Use AWS Services
+Pay Only for Usage
+Scale Anytime
+```
+
+---
+
+# Learning Modules
+
+This repository contains the following AWS topics and practical exercises.
+
+---
+
+## 01 - Computing Fundamentals
+
+Topics Covered:
+
+* Introduction to Cloud Computing
+* Benefits of Cloud Computing
+* Types of Cloud Services
+* Cloud Deployment Models
+* Basic AWS Concepts
+
+Key Learning:
+
+Understanding how cloud computing works and how AWS provides cloud resources on demand.
+
+---
+
+## 02 - Introduction to AWS
+
+Topics Covered:
+
+* AWS Global Infrastructure
+* AWS Regions
+* Availability Zones
+* AWS Management Console
+* AWS Services Overview
+
+Key Learning:
+
+Understanding AWS architecture and how resources are distributed globally.
+
+---
+
+## 03 - Amazon S3 (Simple Storage Service)
+
+Topics Covered:
+
+* S3 Buckets
+* Object Storage
+* File Upload and Management
+* Static Website Hosting
+* Bucket Permissions
+
+Practical:
+
+Hosted a static website using Amazon S3.
+
+Key Learning:
+
+Learned how AWS stores and serves files using cloud storage.
+
+---
+
+## 04 - Amazon EC2 (Elastic Compute Cloud)
+
+Topics Covered:
+
+* Virtual Servers
+* Amazon Machine Images (AMI)
+* Instance Types
+* Security Groups
+* Key Pairs
+
+Practical:
+
+Created an EC2 Linux instance and deployed a sample web application.
+
+Key Learning:
+
+Learned how to launch and manage virtual servers in AWS.
+
+---
+
+## 05 - Amazon VPC (Virtual Private Cloud)
+
+Topics Covered:
+
+* VPC Creation
+* Public Subnets
+* Private Subnets
+* Route Tables
+* Internet Gateway
+
+Practical:
+
+Created and configured a VPC with public and private networking.
+
+Key Learning:
+
+Learned how networking works inside AWS.
+
+---
+
+## 06 - Security and Compliance
+
+Topics Covered:
+
+* IAM (Identity and Access Management)
+* AWS Shield
+* AWS WAF
+* AWS KMS
+* CloudTrail
+* GuardDuty
+* AWS Config
+
+Key Learning:
+
+Learned how AWS protects cloud resources and user data.
+
+---
+
+## 07 - AWS Well-Architected Framework
+
+Topics Covered:
+
+### Operational Excellence
+
+Managing and improving systems efficiently.
+
+### Security
+
+Protecting applications and data.
+
+### Reliability
+
+Keeping applications running during failures.
+
+### Performance Efficiency
+
+Making applications fast and efficient.
+
+### Cost Optimization
+
+Reducing unnecessary expenses.
+
+### Sustainability
+
+Using resources responsibly.
+
+Key Learning:
+
+Learned AWS best practices for building cloud applications.
+
+---
+
+## 08 - Pricing Models and Application Support
+
+Topics Covered:
+
+### Pricing Models
+
+* On-Demand
+* Reserved Instances
+* Savings Plans
+* Spot Instances
+* Free Tier
+
+### Support Plans
+
+* Basic Support
+* Developer Support
+* Business Support
+* Enterprise Support
+
+Key Learning:
+
+Learned how AWS pricing works and how support services help customers.
+
+---
+
+# AWS Services Learned
+
+| Service    | Purpose                    |
+| ---------- | -------------------------- |
+| EC2        | Virtual Servers            |
+| S3         | Cloud Storage              |
+| VPC        | Private Networking         |
+| IAM        | User and Access Management |
+| CloudTrail | Activity Monitoring        |
+| GuardDuty  | Threat Detection           |
+| WAF        | Web Application Protection |
+| Shield     | DDoS Protection            |
+| KMS        | Data Encryption            |
+
+---
+
+# Skills Gained
+
+Through this learning journey, I gained knowledge in:
+
+* Cloud Computing Fundamentals
+* AWS Global Infrastructure
+* Object Storage
+* Virtual Machines
+* Cloud Networking
+* Security and Compliance
+* AWS Best Practices
+* Cost Management
+* Cloud Application Deployment
+
+---
+
+# Practical Projects Completed
+
+### Static Website Hosting using Amazon S3
+
+Created an S3 bucket and hosted a static website.
+
+### EC2 Web Server Deployment
+
+Created a Linux EC2 instance and deployed a sample web application.
 
 ### VPC Configuration
-- Creating VPC
-- Configuring networking
-- Security groups
-- Network ACLs
 
-### Monitoring and Auto Scaling
-- AWS CloudWatch
-- Monitoring AWS resources
-- Auto Scaling concepts
-- Performance management
-
-### Deployment and Networking Services
-- DNS concepts
-- Amazon Route 53
-- Content Delivery Network (CDN)
-- Amazon CloudFront
-
-### AWS Support Resources
-- Infrastructure management
-- Resource optimization
-- Deployment strategies
+Created a VPC, Public Subnet, Private Subnet, Route Table, and Internet Gateway.
 
 ---
 
-## 4. Security and Compliance
+# Repository Structure
 
-### AWS Security Fundamentals
-- Security in cloud computing
-- Shared responsibility model
-- Identity and access management
-
-### AWS Security Services
-- IAM (Identity and Access Management)
-- User roles and permissions
-- Multi-factor authentication (MFA)
-
-### Compliance Concepts
-- Data protection
-- Security best practices
-- Compliance standards
-
-### Cloud Security
-- Network security
-- Data encryption
-- Access control
-- Monitoring and auditing
+```text
+cloud-aws/
+│
+├── 01-computing-fundamentals
+├── 02-intro-to-aws
+├── 03-s3
+├── 04-ec2
+├── 05-vpc
+├── 06-security&compliance
+├── 07-architected-framework
+├── 08-pricing-models&application-support
+└── README.md
+```
 
 ---
 
-## 5. AWS Cloud Architecture Design Principles
+# Future Learning Goals
 
-### AWS Well-Architected Framework
-- Operational excellence
-- Security
-- Reliability
-- Performance efficiency
-- Cost optimization
-- Sustainability
-
-### Cloud Architecture Principles
-- Designing scalable systems
-- Fault tolerance
-- High availability
-- Elastic infrastructure
-
-### Best Practices in AWS
-- Resource optimization
-- Automation
-- Monitoring and logging
-- Efficient architecture design
+* AWS Lambda
+* Amazon RDS
+* DynamoDB
+* Elastic Load Balancer
+* Auto Scaling
+* CloudFormation
+* AWS DevOps Services
+* Containers and Kubernetes
 
 ---
 
-## 6. Billing and Pricing
+# Conclusion
 
-### AWS Pricing Models
-- Pay-as-you-go pricing
-- Reserved instances
-- On-demand pricing
-- Free tier services
-
-### Billing Concepts
-- AWS billing dashboard
-- Cost estimation
-- Usage tracking
-
-### Cost Management
-- Cost optimization techniques
-- Budget management
-- Pricing calculators
-
-### AWS Support Plans
-- Basic support
-- Developer support
-- Business support
-- Enterprise support
-
----
+This repository documents my AWS learning journey, covering cloud fundamentals, storage, compute services, networking, security, pricing models, and AWS best practices. Through practical exercises and hands-on labs, I gained foundational knowledge of Amazon Web Services and cloud computing concepts that are important for cloud engineering and software development careers.
