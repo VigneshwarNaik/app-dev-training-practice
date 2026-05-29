@@ -9,86 +9,13 @@ For detailed HTML concepts, examples, and interview preparation notes, visit:
 [HTML Concepts Hub](https://github.com/VigneshwarNaik/html-concepts-hub)
 
 ---
+## 2. JavaScript
 
-## 2. Debug – HTML
 
-### HTML Debugging
-- Finding HTML errors
-- Fixing syntax mistakes
-- Form debugging
-- Layout correction
-
-### Practice Programs
-- Library Books Form Debug
-- News Page Debugging
+[JS hub] https://github.com/VigneshwarNaik/javascript-hub.git)
 
 ---
 
-## 3. JavaScript
-
-### Introduction to JavaScript
-- What is JavaScript
-- Role of JavaScript in web development
-- Client-side scripting
-
-### JavaScript Basics
-- Variables and data types
-- Operators
-- Conditional statements
-- Loops
-
-### Functions in JavaScript
-- Function declaration
-- Function parameters
-- Return statements
-
-### DOM Manipulation
-- HTML DOM
-- Selecting elements
-- Modifying content and styles
-
-### String Manipulation and Regular Expressions
-- String methods
-- Pattern matching
-- Regular expressions
-
-### Browser Object Model (BOM)
-- Window object
-- Alerts and prompts
-- Timers and navigation
-
-### JavaScript Debugging
-- Debugging techniques
-- Console usage
-- Error handling
-
-### Hands-On Programs – Level 1
-- Welcome Message
-- Table Booking
-- Online Food Delivery Feedback
-- Strike Rate Finder
-
-### Hands-On Programs – Level 2
-- BigStorm Sign In
-- Ugly Number
-- Alliteration
-- Concert Ticket Booking
-
----
-
-## 4. JavaScript Debugging Hands-On
-
-### JavaScript Debugging Practice
-- Identifying logical errors
-- Fixing syntax issues
-- Debugging functions
-- Troubleshooting DOM problems
-
-### Practice Programs
-- Aqua Fish Stall Debugging
-- Factorial Number Debugging
-
----
 
 ## 5. jQuery
 
