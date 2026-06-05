@@ -137,26 +137,39 @@ Pseudocode is not written in any specific programming language.
 
 # 💡 Example Pseudocode
 
-## Problem
-Find the largest number in an array.
+Pseudocode
 
-```text
-START
+    BEGIN
+        DECLARE variables number1, number2, product
 
-SET largest = first element
+        READ number1, number2
 
-FOR each element in array
-    IF element > largest
-        SET largest = element
-    END IF
-END FOR
+        SET product ← number1 * number2
 
-PRINT largest
-
-STOP
-```
+        PRINT product
+    END
 
 ---
+---
+    import java.util.Scanner;
+
+    public class Product {
+    public static void main(String[] args) {
+         Scanner sc = new Scanner(System.in);
+
+        int number1, number2, product;
+
+        System.out.print("Enter first number: ");
+        number1 = sc.nextInt();
+
+        System.out.print("Enter second number: ");
+        number2 = sc.nextInt();
+
+        product = number1 * number2;
+
+        System.out.println("Product = " + product);
+    }
+    }
 
 # ✅ Advantages of Pseudocode
 
