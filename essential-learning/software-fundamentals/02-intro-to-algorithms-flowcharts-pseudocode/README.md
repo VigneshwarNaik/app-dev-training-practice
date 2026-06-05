@@ -26,43 +26,35 @@ Algorithms are important because they:
 
 # 💡 Real-Time Examples
 
-## 🏧 Example 1: ATM Cash Withdrawal
+Algorithm: Making Tea
 
-### Steps:
-1. Insert ATM card
-2. Enter PIN
-3. Select withdrawal option
-4. Enter amount
-5. Collect cash
-6. Take receipt
+Step 1: Start
 
-### ✅ Explanation
+Step 2: Get the required ingredients (water, tea leaves, sugar).
 
-Each step must be followed in sequence.
+Step 3: Plug in the kettle.
 
-If any step is skipped:
-- The transaction will not complete properly.
+Step 4: Pour water into the kettle.
 
-This is an example of an algorithm because we follow step-by-step instructions to complete a task.
+Step 5: Boil the water.
 
----
+Step 6: Check whether the water has boiled.
 
-## 🔍 Example 2: Google Search
+If No, continue boiling the water.
+If Yes, go to Step 7.
 
-### Steps:
-1. Enter search query
-2. Click search button
-3. Google searches millions of web pages
-4. Relevant results are displayed
+Step 7: Add tea leaves to the boiled water.
 
-### ✅ Explanation
+Step 8: Strain the tea leaves.
 
-Google uses algorithms to:
-- Analyze information
-- Find matching results
-- Display useful content quickly
+Step 9: Check whether sugar is needed.
 
-Algorithms make this process fast and efficient.
+If Yes, add sugar and stir well.
+If No, skip to Step 10.
+
+Step 10: Serve the tea.
+
+Step 11: Stop.
 
 ---
 
