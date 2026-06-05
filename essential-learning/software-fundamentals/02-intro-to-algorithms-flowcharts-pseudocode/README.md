@@ -113,6 +113,15 @@ Stop
 
 ---
 
+| Symbol       | Shape             | Purpose              |
+| ------------ | ----------------- | -------------------- |
+| Start/Stop   | Oval (Terminator) | Beginning or end     |
+| Process      | Rectangle         | Action/Operation     |
+| Input/Output | **Parallelogram** | Input or output data |
+| Decision     | Diamond           | Yes/No condition     |
+| Flow Line    | Arrow             | Direction of flow    |
+
+
 # 📝 Pseudocode
 
 Pseudocode is a simple way of writing program logic using normal English statements.
