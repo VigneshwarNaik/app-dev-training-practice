@@ -18,6 +18,201 @@ SDLC helps in:
 - Maintenance
 
 ---
+# SDLC (Software Development Life Cycle)
+
+## 📌 Overview
+
+SDLC (Software Development Life Cycle) is a structured process used to develop high-quality software. It helps teams plan, design, build, test, deploy, and maintain software efficiently.
+
+---
+
+## 🔄 Phases of SDLC
+
+### 1. Requirement Gathering 📋
+
+In this phase, the development team collects and understands the client's requirements.
+
+#### Example
+
+A restaurant owner wants a Food Delivery App with:
+
+* User Registration
+* Food Ordering
+* Online Payment
+* Order Tracking
+
+#### Output
+
+Requirement Specification Document (SRS)
+
+---
+
+### 2. Planning 📅
+
+The project team estimates:
+
+* Cost
+* Time
+* Resources
+* Team Members
+
+#### Example
+
+* 3 Developers
+* 2 Testers
+* 1 UI Designer
+* Project Duration: 4 Months
+
+#### Output
+
+Project Plan
+
+---
+
+### 3. Designing 🎨
+
+Designers create:
+
+* User Interface (UI)
+* Database Design
+* System Architecture
+
+#### Example Flow
+
+```text
+Login
+  ↓
+Restaurant List
+  ↓
+Food Menu
+  ↓
+Cart
+  ↓
+Payment
+```
+
+#### Output
+
+Design Documents and Wireframes
+
+---
+
+### 4. Coding 💻
+
+Developers write the source code based on the design.
+
+#### Example
+
+Modules Developed:
+
+* Login Module
+* Food Ordering Module
+* Payment Module
+* Order Tracking Module
+
+#### Output
+
+Working Software Application
+
+---
+
+### 5. Testing 🧪
+
+Testers verify that the software works correctly and identify bugs.
+
+#### Example
+
+**Test Case 1**
+
+```text
+Input: Add Pizza to Cart
+Action: Place Order
+Expected Result: Order Successfully Placed
+```
+
+**Test Case 2**
+
+```text
+Input: Incorrect Password
+Expected Result: Error Message Displayed
+```
+
+#### Output
+
+Bug Reports and Tested Application
+
+---
+
+### 6. Deployment 🚀
+
+The application is released to end users.
+
+#### Example
+
+Food Delivery App is deployed to:
+
+* Google Play Store
+* Apple App Store
+
+#### Output
+
+Live Application
+
+---
+
+### 7. Maintenance 🔧
+
+After deployment, bugs are fixed and new features are added.
+
+#### Example
+
+* Fix payment crash issue
+* Add UPI payment option
+* Improve app performance
+
+#### Output
+
+Updated Application
+
+---
+
+## 📊 SDLC Flow
+
+```text
+Requirement Gathering
+          ↓
+      Planning
+          ↓
+      Designing
+          ↓
+       Coding
+          ↓
+      Testing
+          ↓
+     Deployment
+          ↓
+     Maintenance
+```
+
+---
+
+## 🎯 Advantages of SDLC
+
+* Improves software quality
+* Reduces development risks
+* Ensures proper planning
+* Helps deliver projects on time
+* Simplifies maintenance and updates
+
+---
+
+## 📝 Conclusion
+
+SDLC provides a systematic approach for software development. By following its phases—Requirement Gathering, Planning, Designing, Coding, Testing, Deployment, and Maintenance—organizations can build reliable, efficient, and high-quality software products.
+
+
+
+
 
 # 📑 Table of Contents
 
