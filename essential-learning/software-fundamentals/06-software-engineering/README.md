@@ -670,79 +670,138 @@ A bank first releases a mobile app with Login and Balance Inquiry. Later updates
 
 # 4️⃣ Spiral Model
 
-# 📖 Definition
+# Spiral Model
 
-Spiral Model is a:
+### Definition
 
-> Risk-driven SDLC model
+The **Spiral Model** is a software development model that combines features of the **Waterfall Model** and **Prototyping Model**. It focuses heavily on **risk analysis**. Development is done in repeated cycles called **spirals**.
 
-It combines:
-- Waterfall Model
-- Iterative Model
-- Prototype concepts
-
-Proposed by:
-> Barry Boehm (1986)
-
----
-
-# ✨ Features of Spiral Model
-
-- Focus on risk analysis
-- Iterative development
-- Continuous customer feedback
-- Supports prototyping
-- Suitable for high-risk projects
-
----
-
-# 🔄 Phases of Spiral Model
+Each spiral includes:
 
 1. Planning
 2. Risk Analysis
-3. Engineering
-4. Evaluation
+3. Development
+4. Customer Evaluation
 
 ---
 
-# 📌 Spiral Representation
+### Bank Mobile App Example
 
-Each loop of the spiral represents:
-> One phase of software development
+Suppose a bank wants a mobile banking app.
 
-The number of loops depends on:
-> Project complexity
+### First Spiral
 
----
+**Planning**
 
-# 📌 Spiral Model is Used When
+* Need Login and Balance Inquiry.
 
-- Project risk is high
-- Requirements are complex
-- Significant requirement changes are expected
-- Project size is large
+**Risk Analysis**
 
----
+* Can user data be kept secure?
 
-# ✅ Advantages of Spiral Model
+**Development**
 
-1. Early risk identification
-2. Better risk management
-3. Continuous customer feedback
-4. High-risk functions handled first
-5. Rapid prototyping support
+* Create Login and Balance features.
+
+**Evaluation**
+
+* Bank reviews the system.
 
 ---
 
-# ❌ Limitations of Spiral Model
+### Second Spiral
 
-1. Expensive model
-2. Complex management
-3. Requires risk analysis expertise
-4. Not suitable for small projects
-5. Planning overhead is high
+**Planning**
+
+* Add Money Transfer.
+
+**Risk Analysis**
+
+* Risk of incorrect transactions or fraud.
+
+**Development**
+
+* Implement Money Transfer.
+
+**Evaluation**
+
+* Bank tests and provides feedback.
 
 ---
+
+### Third Spiral
+
+**Planning**
+
+* Add UPI Payments.
+
+**Risk Analysis**
+
+* Payment security and server load risks.
+
+**Development**
+
+* Implement UPI feature.
+
+**Evaluation**
+
+* Customer feedback and testing.
+
+---
+
+### Diagram
+
+```text
+Spiral 1
+(Plan → Risk → Develop → Evaluate)
+                ↓
+Spiral 2
+(Plan → Risk → Develop → Evaluate)
+                ↓
+Spiral 3
+(Plan → Risk → Develop → Evaluate)
+                ↓
+Final System
+```
+
+---
+
+### Real-Time Example
+
+When a bank develops a mobile banking app, security risks are very important. Before adding each feature (Login, Money Transfer, UPI), developers analyze possible risks, solve them, develop the feature, and then get customer feedback. This cycle continues until the complete app is ready.
+
+---
+
+### Advantages
+
+* Excellent risk management.
+* Suitable for large and complex projects.
+* Customer feedback is included in every cycle.
+* Changes can be handled easily.
+
+### Disadvantages
+
+* Costly and time-consuming.
+* Requires risk analysis experts.
+* Not suitable for small projects.
+
+---
+
+> The Spiral Model is a software development model in which the project is developed through repeated cycles called spirals. Each spiral includes planning, risk analysis, development, and customer evaluation, with a strong focus on risk management.
+
+### Easy Way to Remember
+
+**Incremental Model:**
+"Add feature → Deploy → Add another feature → Deploy"
+
+**Spiral Model:**
+"Plan → Check Risks → Develop → Get Feedback → Repeat"
+
+The main difference is that **Spiral Model focuses on risk analysis before every development cycle**.
+
+
+---
+
 
 # 📊 Comparison of Models
 
