@@ -467,92 +467,114 @@ Prototype Model is suitable when:
 
 # 2️⃣ Rapid Application Development (RAD) Model
 
-# 📖 Definition
+# Rapid Application Development (RAD) Model
 
-RAD (Rapid Application Development) is an incremental SDLC model focused on:
+### Definition
 
-- Fast development
-- Quick delivery
-- Reusable components
-- User feedback
+The **Rapid Application Development (RAD) Model** is a software development model that focuses on **quick development and fast delivery** of software by using reusable components, prototyping, and continuous user feedback.
 
----
+ The Rapid Application Development (RAD) Model is a software development model that emphasizes rapid prototyping, reusable components, and continuous user feedback to develop and deliver software quickly.
 
-# ✨ Features of RAD Model
 
-1. Modules are developed in parallel
-2. Short development cycle
-3. Component-based development
-4. Continuous customer feedback
-5. Faster software delivery
+The main goal is to develop the software in a short time.
 
 ---
 
-# 🔄 Phases of RAD Model
+### Phases of RAD Model
 
-1. Business Modelling
-2. Data Modelling
-3. Process Modelling
-4. Application Generation
-5. Testing and Turnover
+1. **Requirements Planning**
+
+   * Gather user requirements.
+
+2. **User Design**
+
+   * Create prototypes and get user feedback.
+
+3. **Construction**
+
+   * Develop the actual application quickly using reusable components.
+
+4. **Cutover**
+
+   * Testing, deployment, and maintenance.
 
 ---
 
-# 📌 RAD Process Flow
+### Bank Mobile App Example
+
+#### Requirement Planning
+
+A bank wants a mobile banking application with:
+
+* Login
+* Balance Inquiry
+* Money Transfer
+* Transaction History
+
+#### User Design
+
+Developers quickly create screens for:
+
+* Login Page
+* Account Dashboard
+* Money Transfer Page
+
+The bank reviews the screens and suggests changes.
+
+#### Construction
+
+Developers rapidly build the application using existing components and frameworks.
+
+Features added:
+
+* Login
+* Balance Check
+* Fund Transfer
+* Transaction History
+* UPI Payments
+
+#### Cutover
+
+* Test the application
+* Fix bugs
+* Deploy to users
+
+---
+
+### Diagram
 
 ```text
-Business Modelling
-        ↓
-Data Modelling
-        ↓
-Process Modelling
-        ↓
-Application Generation
-        ↓
-Testing and Turnover
+Requirements Planning
+          ↓
+      User Design
+          ↓
+     Construction
+          ↓
+       Cutover
+          ↓
+     Final System
 ```
 
 ---
 
-# ⚡ Traditional Model vs RAD
+### Advantages
 
-## Traditional Model
-- Sequential development
-- Longer development cycle
-- Feedback received late
+* Faster development.
+* Reduced development time.
+* Continuous customer involvement.
+* Easy to accommodate changes.
 
-## RAD Model
-- Quick design and development
-- Prototype cycles used
-- Faster feedback and refinement
+### Disadvantages
 
----
-
-# ✅ Advantages of RAD Model
-
-1. Faster development
-2. Reduced development time
-3. Better customer involvement
-4. Reusable components
-5. Easier project management
+* Requires skilled developers.
+* Not suitable for very large projects.
+* Depends heavily on customer feedback.
 
 ---
 
-# ❌ Limitations of RAD Model
+### Real-Time Example
 
-1. Requires highly skilled developers
-2. Not suitable for very large systems
-3. Expensive development tools may be needed
-4. Requires continuous customer involvement
-
----
-
-# 📌 RAD Model is Suitable When
-
-- Requirements are not completely clear
-- Fast delivery is needed
-- System can be modularized
-- Users participate actively
+A bank needs a mobile banking app within 3 months. Instead of developing everything from scratch, developers use ready-made components for login, payment processing, and notifications. The app is developed quickly, tested, and delivered in a short time.
 
 ---
 
