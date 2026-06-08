@@ -1,4 +1,4 @@
-# Phases of Software Engineering (Simple Notes with Bank App Example)
+# Phases of Software Engineering 
 
 ## Introduction
 
