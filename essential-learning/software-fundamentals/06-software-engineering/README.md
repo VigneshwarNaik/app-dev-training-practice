@@ -323,66 +323,115 @@ Prototype Model is useful because:
 
 ## 1. Throwaway Prototype Model
 
-### 📖 Definition
-A temporary prototype created to understand unclear requirements.
+### Throwaway Prototype Model (Software Engineering)
 
-After requirements become clear:
-> The prototype is discarded.
+**Definition:**
+The Throwaway Prototype Model is a software development model in which a **temporary prototype** is created to understand and clarify user requirements. After gathering feedback, the prototype is **discarded (thrown away)**, and the actual system is developed from scratch.
 
----
+### Steps:
 
-### ✨ Features
+1. Gather initial requirements.
+2. Build a quick prototype.
+3. Show the prototype to the customer.
+4. Collect feedback and refine requirements.
+5. Discard the prototype.
+6. Develop the final system based on the confirmed requirements.
 
-- Rapid construction
-- Ad-hoc development approach
-- Focus on requirement clarification
-- Prototype is not part of the final software
+### Real-Time Example:
 
----
+Suppose a bank wants a new mobile banking app.
 
-### 🔄 Steps
+* Developers first create a simple prototype showing login, account balance, and money transfer screens.
+* The bank reviews it and suggests changes.
+* Once requirements are finalized, the prototype is discarded.
+* The actual banking application is then developed properly.
 
-1. Write preliminary requirements
-2. Design prototype
-3. User reviews prototype
-4. Requirements are updated
-5. Final system is developed
+### Advantages:
 
----
+* Helps understand user requirements clearly.
+* Reduces requirement misunderstandings.
+* Improves customer involvement.
+* Saves cost by finding issues early.
 
-### 📌 Why it is Thrown Away?
+### Disadvantages:
 
-- Proper documentation may not exist
-- Temporary technologies may be used
-- Developed quickly only for understanding
+* Extra time and effort spent on building a prototype.
+* Users may think the prototype is the final product.
+* The prototype itself cannot be reused.
 
----
+### Diagram:
+
+```text
+Requirements
+      ↓
+Quick Design
+      ↓
+Prototype
+      ↓
+Customer Evaluation
+      ↓
+Refined Requirements
+      ↓
+Discard Prototype
+      ↓
+Develop Final System
+```
+
 
 ## 2. Evolutionary Prototype Model
 
-### 📖 Definition
+Evolutionary Prototype Model
+Definition
 
-A prototype that continuously evolves into the final software system.
+The Evolutionary Prototype Model is a software development model in which a prototype is built first and then continuously improved and refined based on user feedback until it becomes the final software product.
 
----
+Unlike the Throwaway Prototype Model, the prototype is not discarded. It evolves into the final system.
 
-### ✨ Features
+Steps
+Gather basic requirements.
+Develop an initial prototype.
+Show it to the customer.
+Collect feedback.
+Modify and improve the prototype.
+Repeat the process until the final system is ready.
 
-- Incremental and iterative approach
-- Software refined continuously
-- Client collaboration throughout development
-- Prototype becomes the final system
+Real-Time Example
 
----
+Suppose a company wants an Online Shopping Application.
 
-### 📌 Characteristics
+First, developers create a simple prototype with login and product display features.
+Users test it and request a shopping cart feature.
+Developers add the cart feature.
+Users request online payment and order tracking.
+These features are added gradually.
+The prototype keeps evolving until it becomes the complete shopping application.
+Advantages
+Better understanding of user requirements.
+Continuous customer involvement.
+Changes can be made easily.
+Faster delivery of a working system.
+Disadvantages
+Development cost may increase.
+Project scope may keep changing.
+Requires frequent user feedback.
+Diagram
+Basic Requirements
+        ↓
+Initial Prototype
+        ↓
+Customer Evaluation
+        ↓
+Feedback
+        ↓
+Refine Prototype
+        ↓
+Customer Evaluation
+        ↓
+Refine Again
+        ↓
+Final System
 
-- Requirements prioritized
-- Stable modules developed first
-- Continuous refinement
-- Systematic development approach
 
----
 
 # ✅ Advantages of Prototype Model
 
