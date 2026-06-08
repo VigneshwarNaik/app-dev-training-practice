@@ -580,72 +580,93 @@ A bank needs a mobile banking app within 3 months. Instead of developing everyth
 
 # 3️⃣ Incremental Model
 
-# 📖 Definition
+Definition
 
-Incremental Model develops software in small modules called:
+The Incremental Model is a software development model in which the software is developed and delivered in small parts (increments). Each increment adds new features to the system until the complete product is finished.
 
-> Increments
+Bank Mobile App Example
 
-Each increment adds new functionality to the previous release.
+Suppose a bank wants a mobile banking application.
 
----
+Increment 1
 
-# ✨ Features of Incremental Model
+Develop basic features:
 
-- Software developed in parts
-- Each increment adds functionality
-- Easier testing and debugging
-- Early software delivery possible
+Login
+Account Balance
+Login → View Balance
 
----
+The bank starts using this version.
 
-# 🔄 Incremental Development Process
+Increment 2
 
-Each increment includes:
+Add:
 
-1. Analysis
-2. Design
-3. Coding
-4. Testing
+Money Transfer
+Login
+  ↓
+View Balance
+  ↓
+Transfer Money
+Increment 3
 
----
+Add:
 
-# 📌 Characteristics
+Transaction History
+Login
+  ↓
+View Balance
+  ↓
+Transfer Money
+  ↓
+Transaction History
+Increment 4
 
-- Requirements are prioritized
-- Functionality added gradually
-- Continuous releases provided
-- Easier maintenance
+Add:
 
----
+UPI Payments
+Bill Payments
+Bank Mobile App
+│
+├── Login
+├── Balance Inquiry
+├── Money Transfer
+├── Transaction History
+├── UPI Payments
+└── Bill Payments
 
-# ✅ Advantages of Incremental Model
+Now the complete banking application is ready.
 
-1. Divide-and-conquer approach
-2. Important functionality delivered early
-3. Easier testing and debugging
-4. Customer feedback after each release
-5. Lower initial delivery cost
+Phases
 
----
+For each increment:
 
-# ❌ Limitations of Incremental Model
+Requirements Analysis
+Design
+Coding
+Testing
+Deployment
+Diagram
+Increment 1 → Basic Features
+        ↓
+Increment 2 → More Features
+        ↓
+Increment 3 → More Features
+        ↓
+Increment 4 → Complete System
+Advantages
+Working software is delivered early.
+Easy to test and debug.
+Customer can use features sooner.
+Changes can be made between increments.
+Disadvantages
+Requires proper planning.
+Integration of increments can be difficult.
+Overall cost may increase.
+Real-Time Example
 
-1. Requires good planning
-2. Full system architecture needed initially
-3. Module integration may be difficult
-4. Poor interfaces may create issues
+A bank first releases a mobile app with Login and Balance Inquiry. Later updates add Money Transfer, Transaction History, and UPI Payments. The application grows feature by feature until it becomes a complete banking app.
 
----
-
-# 📌 Incremental Model is Suitable When
-
-- Requirements are known initially
-- Requirements may evolve later
-- Large projects are divided into modules
-- Long-term projects are developed
-
----
 
 # 4️⃣ Spiral Model
 
