@@ -27,8 +27,6 @@ After completing this track, I gained knowledge in:
 
 ## 1. Generative AI APIs for Practical Applications: An Introduction
 
-**Duration:** 1h 14m 28s
-
 ### Topics Covered
 
 * Difference between AI and Generative AI
@@ -49,8 +47,6 @@ After completing this track, I gained knowledge in:
 ---
 
 ## 2. Artificial Intelligence and Machine Learning
-
-**Duration:** 1h 36m 39s
 
 ### Topics Covered
 
@@ -75,8 +71,6 @@ After completing this track, I gained knowledge in:
 
 ## 3. ChatGPT Prompt Engineering Examples & Use Cases
 
-**Duration:** 1h 05m 37s
-
 ### Topics Covered
 
 * Prompt engineering fundamentals
@@ -97,8 +91,6 @@ After completing this track, I gained knowledge in:
 
 ## 4. Inside Agentic AI: Foundations and Frontiers
 
-**Duration:** 39m 37s
-
 ### Topics Covered
 
 * Agentic AI fundamentals
@@ -117,8 +109,6 @@ After completing this track, I gained knowledge in:
 ---
 
 ## 5. Inside Agentic AI: Core Architecture of Agentic Systems
-
-**Duration:** 35m 24s
 
 ### Topics Covered
 
@@ -145,7 +135,6 @@ After completing this track, I gained knowledge in:
 
 ## 6. Inside Agentic AI: Popular Frameworks
 
-**Duration:** 32m 33s
 
 ### Frameworks Covered
 
