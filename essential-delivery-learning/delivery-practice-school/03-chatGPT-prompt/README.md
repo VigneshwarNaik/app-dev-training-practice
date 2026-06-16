@@ -2,92 +2,73 @@
 
 ## 📌 Overview
 
-This module introduces **Prompt Engineering**, the practice of writing effective instructions (prompts) for AI systems like ChatGPT to generate accurate and useful responses.
+This course teaches how to communicate effectively with AI systems like ChatGPT.
 
-> **Better Prompt = Better AI Response**
+**Prompt Engineering** is the skill of writing better instructions (prompts) to get better AI responses.
+
+> **Good Prompt → Good Response**
 
 ---
 
-## 🎯 Learning Outcomes
+# 🎯 Learning Objectives
 
-At the end of this module, you will be able to:
+By the end of this course, you will be able to:
 
 * Understand Prompt Engineering
-* Identify different types of prompts
-* Write effective prompts for ChatGPT
-* Apply prompts in real-world applications
-* Understand ethical considerations in AI usage
+* Learn different types of prompts
+* Write effective prompts
+* Use prompts in real-world applications
+* Understand AI ethics and safety
+* Improve AI response accuracy
+* Build practical AI use cases
 
 ---
 
 # 1. What is a Prompt?
 
-A **Prompt** is an instruction or question given to an AI model.
+A **Prompt** is a question or instruction given to ChatGPT.
 
 ### Example
 
 ```text
-What is Agile?
+Explain Agile.
 ```
 
-This question is called a **prompt**.
+This instruction is called a **prompt**.
 
 ---
 
 # 2. What is Prompt Engineering?
 
-**Prompt Engineering** is the process of designing effective prompts to get better responses from AI.
+Prompt Engineering means:
 
-Think of ChatGPT as a smart assistant:
+> Writing better questions to get better answers from AI.
+
+Think of ChatGPT as a very smart assistant.
+
+If you ask:
 
 ```text
-Good Question → Good Answer
-Bad Question → Poor Answer
+Help me.
 ```
+
+AI gets confused:
+
+**Help with what?**
+
+But if you ask:
+
+```text
+Teach Agile for beginners with examples.
+```
+
+AI understands clearly and gives a better response.
 
 ---
 
-# 3. Bad Prompt vs Good Prompt
+# 3. The Golden Prompt Formula
 
-## Bad Prompt ❌
-
-```text
-Tell me about Python.
-```
-
-Problem:
-
-* Too broad
-* No context
-* Unclear audience
-
----
-
-## Good Prompt ✅
-
-```text
-Explain Python programming for beginners with examples.
-```
-
----
-
-## Excellent Prompt 🚀
-
-```text
-Act as a Python instructor.
-
-Explain Python for beginners with code examples.
-
-Output in Markdown format.
-
-Keep it under 300 words.
-```
-
----
-
-# 4. The Golden Prompt Formula
-
-A powerful prompt usually follows this structure:
+Every good prompt follows this formula:
 
 ```text
 Role + Task + Context + Format + Constraints
@@ -103,8 +84,8 @@ Examples:
 
 ```text
 Act as a teacher.
-Act as a software engineer.
 Act as a Scrum Master.
+Act as a Software Engineer.
 ```
 
 ---
@@ -116,9 +97,9 @@ Tell AI what to do.
 Examples:
 
 ```text
-Explain Scrum.
+Teach Agile.
+Generate code.
 Create a README.md.
-Debug Python code.
 ```
 
 ---
@@ -137,33 +118,33 @@ I am a beginner learning Agile.
 
 ## Format
 
-Specify how the response should be structured.
+Tell AI how to present the answer.
 
 Examples:
 
 ```text
 Use Markdown.
 Create a table.
-Provide bullet points.
+Use bullet points.
 ```
 
 ---
 
 ## Constraints
 
-Set limits or rules.
+Set rules or limits.
 
 Examples:
 
 ```text
-Limit to 200 words.
 Use simple English.
-Provide 3 examples only.
+Limit to 200 words.
+Provide 3 examples.
 ```
 
 ---
 
-# 5. Complete Prompt Example
+# 4. Complete Prompt Example
 
 ```text
 Act as an Agile trainer.
@@ -172,16 +153,20 @@ Teach Scrum to beginners.
 
 Use Markdown format.
 
-Include examples.
+Provide examples.
 
-Keep it under 300 words.
+Use simple English.
+
+Limit to 300 words.
 ```
+
+This is an example of **Prompt Engineering**.
 
 ---
 
-# 6. Types of Prompts
+# 5. Types of Prompts
 
-## 1. Zero-Shot Prompting
+## Zero-Shot Prompting
 
 Ask directly without examples.
 
@@ -199,7 +184,7 @@ Bonjour
 
 ---
 
-## 2. One-Shot Prompting
+## One-Shot Prompting
 
 Provide one example.
 
@@ -218,7 +203,7 @@ Animal
 
 ---
 
-## 3. Few-Shot Prompting
+## Few-Shot Prompting
 
 Provide multiple examples.
 
@@ -242,23 +227,25 @@ More examples generally improve accuracy.
 
 ---
 
-## 4. Role Prompting
+## Role Prompting
 
 Assign a role to AI.
 
 ### Example
 
 ```text
-Act as a DevOps Engineer.
+Act as a Java Architect.
 
-Explain Kubernetes to beginners.
+Explain Microservices.
 ```
+
+AI behaves like a Java expert.
 
 ---
 
-## 5. Chain-of-Thought Prompting
+## Chain-of-Thought Prompting
 
-Ask AI to solve problems step by step.
+Ask AI to think step by step.
 
 ### Example
 
@@ -285,17 +272,17 @@ Useful for:
 
 ---
 
-# 7. Effective Prompt Writing Tips
+# 6. Effective Prompt Writing
 
 ## Be Specific
 
-❌ Bad:
+❌ Bad Prompt
 
 ```text
 Write code.
 ```
 
-✅ Good:
+✅ Good Prompt
 
 ```text
 Write a Python function to reverse a string.
@@ -305,16 +292,16 @@ Write a Python function to reverse a string.
 
 ## Add Context
 
-❌ Bad:
+❌ Bad Prompt
 
 ```text
-Create a README.
+Create README.
 ```
 
-✅ Good:
+✅ Good Prompt
 
 ```text
-Create a README.md for an Agile Scrum project.
+Create README.md for a Scrum project.
 ```
 
 ---
@@ -324,7 +311,7 @@ Create a README.md for an Agile Scrum project.
 Example:
 
 ```text
-Explain Kanban in a table with examples.
+Explain Kanban using a table and examples.
 ```
 
 ---
@@ -341,28 +328,26 @@ Explain Agile in under 100 words.
 
 ## Iterate and Improve
 
-Prompt engineering is an iterative process:
+Prompt engineering is iterative:
 
 ```text
 Prompt
    ↓
 Output
    ↓
-Refine Prompt
+Improve Prompt
    ↓
 Better Output
 ```
 
 ---
 
-# 8. Real-World Use Cases
+# 7. Real-World Applications
 
 ## Coding Assistant
 
 ```text
-Act as a Python expert.
-
-Debug this code and explain the errors.
+Debug this Java code and explain errors.
 ```
 
 ---
@@ -370,15 +355,7 @@ Debug this code and explain the errors.
 ## Resume Builder
 
 ```text
-Create an ATS-friendly resume for a Java Developer with 3 years of experience.
-```
-
----
-
-## Documentation Generator
-
-```text
-Generate README.md for a Scrum project.
+Create an ATS-friendly resume for a Java Developer.
 ```
 
 ---
@@ -386,68 +363,157 @@ Generate README.md for a Scrum project.
 ## Study Assistant
 
 ```text
-Teach Agile like I am 10 years old.
+Teach Kanban like I am 10 years old.
 ```
 
 ---
 
-## AI Agent
+## Documentation Generator
 
 ```text
-You are an autonomous travel assistant.
-
-Book flights and optimize costs.
+Generate README.md for Scrum framework.
 ```
 
 ---
 
-# 9. Ethics in Prompt Engineering
+## AI Travel Assistant
 
-Be careful about:
+```text
+Act as a travel assistant.
 
-* Privacy
-* Bias
-* Hallucinations
-* Security
-
-Never share:
-
-❌ Passwords
-❌ API Keys
-❌ Personal Information
-
-Always verify AI-generated responses.
+Find cheap flights and summarize options.
+```
 
 ---
 
-# 10. Prompt Engineering Best Practices
+# 8. Ethical Considerations
 
-✅ Be specific
+AI should be used responsibly.
 
-✅ Provide context
+## Never Share:
 
-✅ Assign roles
+❌ Passwords
 
-✅ Define output format
+❌ API Keys
 
-✅ Add constraints
+❌ Personal Information
 
-✅ Iterate and improve
+❌ Company Secrets
+
+---
+
+## Common AI Issues
+
+### Bias
+
+AI may produce unfair responses.
+
+### Hallucination
+
+AI sometimes generates incorrect information confidently.
+
+Always verify important information.
+
+### Privacy
+
+Protect sensitive data.
+
+---
+
+# 9. Impact of Prompts on Accuracy
+
+Better prompts produce more accurate answers.
+
+### Bad Prompt
+
+```text
+Explain Java.
+```
+
+### Good Prompt
+
+```text
+Explain Java Collections Framework with examples for interview preparation.
+```
+
+The second prompt gives more precise results.
+
+---
+
+# 10. Relationship Between Prompts and Training Data
+
+ChatGPT learns from:
+
+* Books
+* Websites
+* Articles
+* Code repositories
+
+The prompt tells AI which knowledge to use.
+
+Example:
+
+```text
+Explain Agile to a 10-year-old.
+```
+
+AI selects simpler explanations from its training data.
+
+---
+
+# 11. Building Effective Use Cases
+
+A **use case** is a real-world application of ChatGPT.
+
+### Example Use Cases
+
+* Coding Assistant
+* Customer Support Bot
+* Documentation Generator
+* Resume Builder
+* AI Tutor
+* Travel Assistant
+
+---
+
+# 12. Identifying Faulty Prompts
+
+## Faulty Prompt
+
+```text
+Explain cloud.
+```
+
+Problem:
+
+* AWS?
+* Azure?
+* Weather cloud?
+
+---
+
+## Improved Prompt
+
+```text
+Explain AWS cloud computing for beginners with examples.
+```
+
+Clear prompts produce better results.
 
 ---
 
 # 🔑 Key Takeaways
 
-* A prompt is an instruction given to AI.
-* Prompt Engineering improves AI responses.
-* Better prompts lead to better results.
+* A prompt is an instruction to AI.
+* Better prompts produce better outputs.
 * The golden formula is:
 
 ```text
 Role + Task + Context + Format + Constraints
 ```
 
-* Prompt engineering is essential for AI applications.
+* Prompt engineering is essential for using AI effectively.
+* Always verify AI responses.
 
 ---
 
@@ -467,7 +533,7 @@ The process of designing effective prompts to get better AI responses.
 
 ---
 
-### Q3. Name three types of prompting.
+### Q3. Name three types of prompts.
 
 **Answer:**
 
@@ -477,7 +543,14 @@ The process of designing effective prompts to get better AI responses.
 
 ---
 
-### Q4. What is the Golden Prompt Formula?
+### Q4. Why is prompt engineering important?
+
+**Answer:**
+Because better prompts produce more accurate and useful AI outputs.
+
+---
+
+### Q5. What is the Golden Prompt Formula?
 
 **Answer:**
 
@@ -487,13 +560,6 @@ Role + Task + Context + Format + Constraints
 
 ---
 
-### Q5. Why is Prompt Engineering important?
-
-**Answer:**
-Because better prompts produce more accurate and useful AI outputs.
-
----
-
 # 🚀 One-Line Summary
 
-> **Prompt Engineering is the art of writing smart instructions for AI to get the best possible results.**
+> **Prompt Engineering is the art of asking AI better questions to get better answers.**
